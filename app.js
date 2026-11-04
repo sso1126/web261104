@@ -53,7 +53,6 @@ console.log(yearsSince(movies[0].date) + "년 전 개봉");
 
 
 
-// 6
 function posterUrl(path, size) {
     return "https://image.tmdb.org/t/p/w342/5TMyytCI5Pfc9c1eNsljiCdiB05.jpg" + size + path; 
 }
