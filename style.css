@@ -190,7 +190,11 @@ footer {
     }
 
     .card-container {
-        grid-template-columns: repeat(4, 1fr);
+        display: grid;
+        grid-template-columns: repeat(5, minmax(0, 1fr));
+        gap: 20px;
+        width: 100%;
+        box-sizing: border-box;
     }
 }
 
@@ -204,10 +208,14 @@ footer {
     }
 
     .board {
-        grid-template-columns: repeat(2, 1fr) repeat(4, 1fr);
+        grid-template-columns: repeat(5, 1fr);
     }
 
     .card-container {
-        grid-template-columns: repeat(2, 1fr);
+        display: grid;
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+        gap: 20px;
+        width: 100%;
+        box-sizing: border-box
     }
 }
